@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="../program.js"></script>
+    <title>Action Show</title>
+</head>
+<body>
+    <div class="pagetop">
+        Action Show
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="Qual action você está procurando?">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+             <i class="material-icons">search</i>
+          </button>
+        </div>
+       
+     </div>
+     <img src="https://cdn.awsli.com.br/200x200/369/369250/logo/f501f40fa9.png" alt="Importados Geek">
+    </div>
+    <div class="topnav">
+        <a href="/html/index.html">Inicio</a>
+        <a href="/html/animes.html" >Animes</a>
+        <a href="/html/sobre.html" >Sobre nós</a>
+        <a class="cadastro" >Cadastrar</a>
+        
+      </div>
+      
+    <div>
+        <div class="formulario">
+            <div>
+            <form class="inputs"  action="/action_page.php">
+                <label for="fname">Nome:</label>
+                <input required type="text" id="nome" name="fname"><br><br>
+                <label for="lname">CPF:</label>
+                <input required type="text" id="cpf" name="lname"><br><br>
+                <label for="fname">CEP:</label>
+                <input required type="text" id="cep" name="fname"><br><br>
+                <label for="fname">Rua:</label>
+                <input required type="text" id="rua" name="fname"><br><br>
+                <label for="fname">Bairro:</label>
+                <input required type="text" id="bairro" name="fname"><br><br>
+                <label for="fname">Cidade:</label>
+                <input required type="text" id="cidade" name="fname"><br><br>
+                <label for="fname">UF:</label>
+                <input required type="text" id="estado" name="fname"><br><br>
+                <label for="fname">E-mail:</label>
+                <input required type="text" id="email" name="fname"><br><br>
+                
+                <input onclick="window.parent.validarFormulario()" type="submit" value="Cadastrar">
+              </form>
+              </div>
+        </div>
+       
+    </div>
+</body>
+</html>
